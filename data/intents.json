@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening", "What's up", "Hi there"],
+      "responses": ["Hello! How can I help with your health today?", "Hi there! Tell me about your symptoms.", "Welcome! How are you feeling?"]
+    },
+    {
+      "tag": "fever",
+      "patterns": ["I have fever", "high temperature", "feeling hot", "body temperature", "burning up", "fever symptoms", "temperature rising", "I'm running a fever", "my temperature is high"],
+      "responses": ["You may have a fever. Stay hydrated and consult a doctor if it persists above 103°F or lasts more than 3 days.", "Fever detected. Rest well and monitor your temperature. Seek immediate medical help if above 103°F or accompanied by severe symptoms."]
+    },
+    {
+      "tag": "cold",
+      "patterns": ["runny nose", "cold", "sneezing", "blocked nose", "stuffy nose", "nasal congestion", "common cold", "nose is running", "can't breathe through nose"],
+      "responses": ["It looks like a common cold. Rest and drink warm fluids. Most colds resolve in 7-10 days.", "Cold symptoms identified. Stay warm, rest, and drink plenty of water. Consult a doctor if symptoms worsen or persist beyond 10 days."]
+    },
+    {
+      "tag": "headache",
+      "patterns": ["headache", "head pain", "migraine", "throbbing head", "head hurts", "severe headache", "my head is pounding", "head is aching"],
+      "responses": ["Take rest in a quiet, dark room and stay hydrated. Seek medical help if severe or persistent.", "Headache noted. Try relaxation techniques and rest. Consult a doctor if accompanied by vision changes, fever, or neck stiffness."]
+    },
+    {
+      "tag": "stomach_pain",
+      "patterns": ["stomach pain", "abdominal pain", "gas problem", "stomach ache", "belly hurts", "digestive issues", "tummy ache", "stomach cramps"],
+      "responses": ["Avoid spicy and heavy foods. Try light meals and stay hydrated. Consult a doctor if pain is severe or persistent.", "Stomach discomfort detected. Try bland foods (rice, bananas, toast) and rest. Seek medical help if pain intensifies or includes vomiting."]
+    },
+    {
+      "tag": "covid",
+      "patterns": ["covid symptoms", "loss of smell", "corona", "coronavirus", "covid-19", "difficulty breathing", "dry cough", "loss of taste", "covid test"],
+      "responses": ["Please get tested immediately and isolate. Monitor your oxygen levels if possible. Seek emergency care for severe breathing difficulty.", "COVID-19 symptoms detected. Get tested as soon as possible and follow local health guidelines. Contact a healthcare provider for guidance."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["what can you do", "help me", "how you help", "what are your features", "capabilities", "how does this work"],
+      "responses": ["I can give basic guidance for common symptoms like fever, cold, headache, stomach pain, and more. For complex queries, I use AI to provide general health information.", "I provide preliminary health guidance based on symptoms. I use deep learning for common cases and AI assistance for complex questions. Remember, I'm not a replacement for medical diagnosis."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "thanks", "thank you", "that's all", "nothing else"],
+      "responses": ["Take care! Stay healthy and consult a doctor for serious symptoms.", "Goodbye! Remember to seek professional medical advice when needed.", "Stay well! Feel free to return anytime you need health guidance."]
+    }
+  ]
+}
